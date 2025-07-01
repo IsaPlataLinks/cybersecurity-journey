@@ -22,7 +22,7 @@ Objetivo: Conseguir minha primeira oportunidade na área (estágio ou júnior) e
 **Foco:** Aprender fundamentos técnicos essenciais, iniciar práticas em SOC e documentar tudo.
 
 **Metas:**
-- [ ] Criar conta no GitHub e organizar repositório  
+- [X] Criar conta no GitHub e organizar repositório  
 - [ ] Estudar fundamentos de redes  
   - [ ] IP  
   - [ ] DNS  
