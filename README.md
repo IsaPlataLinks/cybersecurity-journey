@@ -1,186 +1,165 @@
-# cybersecurity-journey  
-## Do Estágio ao Blue Team Sênior  
+# cybersecurity-journey
+## Do Estágio ao Sênior
 
 Repositório criado para documentar minha jornada de aprendizado em cibersegurança :)
-
-Objetivo: Conseguir minha primeira oportunidade na área (estágio ou júnior) em até 3 meses, com foco em práticas defensivas (Blue Team), SOC e resposta a incidentes.
 
 ---
 
 ### Formação
 
-- Ensino Superior em andamento: [Sistemas de Informação] 
-- Início: [2025]  
-- Previsão de conclusão: [2029]
+- Ensino Superior em andamento: [Sistemas de Informação]
+- Início: 2025
+- Previsão de conclusão: 2029
 
 ---
 
-## Estágio / Blue Team Júnior  
+## Defesa Cibernética
+
+### Inicial
 **Período:** 0 a 6 meses  
 **Status:** Em andamento  
 
-**Foco:** Aprender fundamentos técnicos essenciais, iniciar práticas em SOC e documentar tudo.
+**Foco:** Fundamentos técnicos essenciais, práticas em SOC e documentação de aprendizados.
 
 **Metas:**
-- [X] Criar conta no GitHub e organizar repositório  
-- [ ] Estudar fundamentos de redes  
-  - [ ] IP  
-  - [ ] DNS  
-  - [ ] Modelo OSI  
-  - [ ] TCP/IP  
-- [ ] Comandos básicos em Linux  
-  - [ ] ls  
-  - [ ] cat  
-  - [ ] cd  
-  - [ ] chmod  
-- [ ] Estudar logs  
-  - [ ] Event Viewer (Windows)  
-  - [ ] journalctl (Linux)  
-- [ ] Usar SIEM (Wazuh ou Splunk) para visualizar alertas  
-- [ ] TryHackMe: Introduction to Cybersecurity  
-- [ ] TryHackMe: SOC Level 1  
-  - [ ] Conceitos básicos de SOC  
-  - [ ] Ferramentas e alertas  
-  - [ ] Análise de logs  
-  - [ ] Simulação de resposta  
-- [ ] Criar playbook simples de resposta a incidentes  
-  - [ ] Reconhecimento  
-  - [ ] Contenção inicial  
-  - [ ] Erradicação  
-  - [ ] Recuperação  
-- [ ] Publicar primeiros relatórios e análises no GitHub  
-  - [ ] Relatório de análise de log  
-  - [ ] Resumo de alerta em SIEM  
-  - [ ] Estudo de caso fictício  
+- [x] Criar conta no GitHub e organizar repositório
+- [ ] Estudar fundamentos de redes
+  - [ ] IP, DNS, Modelo OSI, TCP/IP
+- [ ] Comandos básicos em Linux (ls, cat, cd, chmod)
+- [ ] Estudar logs (Event Viewer, journalctl)
+- [ ] Usar SIEM (Wazuh/Splunk)
+- [ ] TryHackMe: Intro to Cybersecurity / SOC Level 1
+- [ ] Criar playbook simples (Reconhecimento, Contenção, Erradicação, Recuperação)
+- [ ] Publicar relatórios e estudos de caso
 
 ---
 
-## Nível Intermediário (SOC N2)  
+### Nível Intermediário
 **Período:** 6 a 18 meses  
 **Status:** Planejado para 2025  
 
-**Foco:** Investigar ameaças com mais autonomia, aprender threat hunting, frameworks e automatizar tarefas.
+**Foco:** Threat hunting, automação, uso de frameworks, EDR e resposta estruturada.
 
 **Metas:**
-- [ ] Estudar MITRE ATT&CK  
-  - [ ] Táticas e técnicas  
-  - [ ] Aplicação em labs  
-- [ ] Automatizar tarefas  
-  - [ ] Bash  
-  - [ ] Python básico  
-- [ ] Criar alertas personalizados em SIEM  
-  - [ ] Regras baseadas em MITRE  
-  - [ ] Filtros de IP e comportamento  
-- [ ] Simular ataque  
-  - [ ] Metasploit básico  
-  - [ ] Brute force logs  
-- [ ] Usar EDR em simulações  
-  - [ ] Defender for Endpoint  
-  - [ ] CrowdStrike Falcon  
-- [ ] Desenvolver playbook completo de resposta  
-  - [ ] Preparação  
-  - [ ] Detecção  
-  - [ ] Resposta  
-  - [ ] Recuperação  
-  - [ ] Pós-incidente  
+- [ ] MITRE ATT&CK (táticas, labs)
+- [ ] Automatização (bash/python)
+- [ ] Regras personalizadas em SIEM
+- [ ] Ataques simulados (Metasploit, brute force)
+- [ ] EDR (Defender, CrowdStrike)
+- [ ] Playbook completo de resposta
 
 ---
 
-## Nível Sênior  
+### Nível Sênior
 **Período:** 18 a 36 meses  
 **Status:** Objetivo para 2026  
 
-**Foco:** Conduzir incidentes ponta a ponta, liderar processos, aplicar GRC e participar de auditorias e avaliações de segurança.
+**Foco:** Liderança técnica, GRC, laboratório próprio e resposta ponta a ponta.
 
 **Metas:**
-- [ ] Criar e revisar playbooks avançados  
-  - [ ] Resposta a APT (ataque persistente)  
-  - [ ] Ransomware  
-  - [ ] Phishing  
-- [ ] Trabalhar com scanners de vulnerabilidades  
-  - [ ] Nessus  
-  - [ ] OpenVAS  
-  - [ ] Qualys  
-- [ ] Implementar políticas de GRC  
-  - [ ] ISO 27001  
-  - [ ] NIST CSF  
-  - [ ] CIS Controls  
-- [ ] Criar laboratório caseiro  
-  - [ ] SIEM funcionando  
-  - [ ] Endpoints Windows e Linux  
-  - [ ] Scripts de ataque e defesa  
-- [ ] Documentar resposta a incidente complexa  
-  - [ ] Relatório técnico  
-  - [ ] Análise post-mortem  
-  - [ ] Apresentação executiva  
+- [ ] Playbooks avançados (APT, ransomware, phishing)
+- [ ] Scanners de vulnerabilidades (Nessus, OpenVAS, Qualys)
+- [ ] GRC (ISO 27001, NIST CSF, CIS Controls)
+- [ ] Laboratório caseiro
+- [ ] Documentar resposta técnica e executiva
 
 ---
 
-### Ferramentas & Conhecimentos Práticos
+## Técnicas Ofensivas
 
-- [ ] Linux (básico)  
-  - [ ] Navegação por diretórios (`ls`, `cd`)  
-  - [ ] Leitura de arquivos (`cat`, `less`)  
-  - [ ] Permissões de arquivos (`chmod`)  
-  - [ ] Leitura de logs com `journalctl`  
-  - [ ] Estrutura de diretórios e processos básicos  
+### Inicial
+**Período:** 0 a 6 meses  
+**Status:** Em andamento
 
-- [ ] Windows Server (básico)  
-  - [ ] Acesso ao Event Viewer  
-  - [ ] Identificação de falhas de logon  
-  - [ ] Eventos de segurança e sistema  
-  - [ ] Leitura de IDs e códigos de eventos  
+**Foco:** Mentalidade ofensiva, OSINT, engenharia social e primeiros ataques.
 
-- [ ] SIEM (em simulação)  
-  - [ ] Instalação e configuração do Wazuh  
-  - [ ] Visualização e filtragem de alertas  
-  - [ ] Entendimento de regras e agentes  
-  - [ ] Primeiros testes no Splunk  
-  - [ ] Consulta básica com SPL  
-
-- [ ] Monitoramento (em estudo)  
-  - [ ] Conceitos de hosts e triggers no Zabbix  
-  - [ ] Métricas de CPU, memória, disco  
-  - [ ] Criação de dashboards no Grafana  
-  - [ ] Alertas visuais e filtros por tempo  
-
-- [ ] Análise de logs  
-  - [ ] Identificação de eventos relevantes no Event Viewer  
-  - [ ] Análise de logs de login, falhas e sistema  
-  - [ ] Uso do `journalctl` para logs em Linux  
-  - [ ] Extração manual de evidências simples  
-
-- [ ] Bash e Python (básico)  
-  - [ ] Scripts com `echo`, `cat`, `grep`, `awk`  
-  - [ ] Automatização de buscas em arquivos de log  
-  - [ ] Scripts básicos com Python (`print`, `if`, `for`, `open`)  
-  - [ ] Manipulação de strings e listas  
-
-- [ ] MITRE ATT&CK (início)  
-  - [ ] Entendimento das táticas e técnicas principais  
-  - [ ] Estudo de técnicas de Reconhecimento, Execução e Persistência  
-  - [ ] Mapeamento de eventos em SIEM com base no ATT&CK  
-
-- [ ] TryHackMe Labs  
-  - [ ] Introduction to Cybersecurity  
-  - [ ] SOC Level 1  
-  - [ ] Cyber Defense Pathway  
-  - [ ] Realizar anotações e documentar aprendizados no GitHub  
-
-- [ ] EDR e proteção de endpoint  
-  - [ ] Instalação e uso básico do Defender for Endpoint  
-  - [ ] Simulação de alertas no CrowdStrike (ou similar)  
-  - [ ] Resposta a incidentes de malware em endpoint  
-
-- [ ] GRC e frameworks de segurança  
-  - [ ] Introdução ao ISO/IEC 27001  
-  - [ ] Estudo do NIST Cybersecurity Framework  
-  - [ ] Mapeamento de controles com CIS Controls v8  
-  - [ ] Noções de conformidade e política de segurança  
-
-- [ ] ITSM e processos de atendimento  
-  - [ ] Registro e gerenciamento de tickets (ServiceDesk)  
-  - [ ] Escalonamento e acompanhamento de incidentes  
-  - [ ] Comunicação técnica e relatório de ocorrências  
+**Metas:**
+- [ ] Conceitos de Red Team e ética
+- [ ] OSINT (theHarvester, recon-ng, Google Dorks)
+- [ ] Engenharia Social (pretexting, baiting, phishing)
+- [ ] FTP / brute force (hydra, medusa)
+- [ ] TryHackMe: Intro to Offensive Security / Red Team Fundamentals
 
 ---
+
+### Nível Intermediário
+**Período:** 6 a 18 meses  
+**Status:** Planejado
+
+**Foco:** Exploração prática, pós-exploração e movimentação lateral.
+
+**Metas:**
+- [ ] SQL Injection manual e com sqlmap
+- [ ] Exploração com Metasploit
+- [ ] Sniffing (Wireshark, tcpdump)
+- [ ] Implantação de backdoors
+- [ ] Enumeração com nmap, enum4linux
+- [ ] Simular movimentos laterais
+
+---
+
+### Nível Sênior
+**Período:** 18 a 36 meses  
+**Status:** Objetivo
+
+**Foco:** Evasão, privilege escalation, ransom, zero-day e simulações completas.
+
+**Metas:**
+- [ ] MITM (Bettercap, Ettercap)
+- [ ] Privilege Escalation (linPEAS, winPEAS, GTFOBins)
+- [ ] Simular ransomware e impacto
+- [ ] Estudar zero-days (PoCs e análise)
+- [ ] Simular ataque completo ponta a ponta
+
+---
+
+## Integração Ofensiva + Defensiva
+**Período:** 6 a 24 meses  
+**Status:** Em paralelo
+
+- [ ] Cruzar logs e técnicas do Red Team
+- [ ] Alertas baseados no MITRE ATT&CK
+- [ ] Documentar detecção/resposta/lessons learned
+- [ ] Refatorar e testar playbooks reais
+
+---
+
+## Plataformas e Labs
+**Período:** Contínuo
+
+- [ ] TryHackMe
+- [ ] Hack The Box
+- [ ] VulnHub
+- [ ] Blue Team Labs Online
+- [ ] CyberDefenders
+- [ ] PicoCTF
+
+---
+
+## Conteúdos Extras
+**Período:** Conforme evolução técnica
+
+- [ ] Segurança em Nuvem (AWS, Azure, GCP)
+- [ ] Criptografia e Certificados
+- [ ] Automação com Python, Bash, PowerShell
+- [ ] Ferramentas: VirusTotal, AnyRun, Shodan, Censys, Burp Suite
+
+---
+
+## Ferramentas & Conhecimentos Práticos – Ataque
+
+- [ ] OSINT: theHarvester, recon-ng, Google Dorks
+- [ ] Engenharia Social: pretexting, baiting, phishing
+- [ ] Enumeração: nmap, netdiscover, enum4linux
+- [ ] Exploração: sqlmap, Metasploit, msfvenom
+- [ ] Brute Force: hydra, medusa
+- [ ] Sniffing: Wireshark, tcpdump
+- [ ] MITM: Bettercap, Ettercap
+- [ ] Escalonamento: linPEAS, winPEAS, GTFOBins
+- [ ] Persistência: backdoors, netcat, PowerShell
+- [ ] Ransomware: simulação em laboratório
+- [ ] Zero-Day: estudo teórico de CVEs e PoCs
+
+---
+
+ *Atualização constante.*
