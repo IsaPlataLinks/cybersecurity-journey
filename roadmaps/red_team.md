@@ -14,7 +14,7 @@ Repositório criado para documentar minha jornada de aprendizado em Red Team e O
   - [ ] SMTP/POP3/IMAP
   - [ ] LDAP/LDAPS
   - [ ] Kerberos
-- [ ] Conceitos de IP
+- [ ] Conceitos de IP.
   - [ ] IPv4 vs IPv6
   - [ ] Public vs Private IP
   - [ ] localhost/loopback (127.0.0.1)
