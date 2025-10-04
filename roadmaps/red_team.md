@@ -298,7 +298,6 @@ Repositório criado para documentar minha jornada de aprendizado em Red Team e O
 - [ ] **OWASP Top 10** (completo)
 ##
 ### Network Exploitation
-
 - [ ] **SMB Exploitation**
   - [ ] EternalBlue (MS17-010)
   - [ ] SMBGhost (CVE-2020-0796)
@@ -325,9 +324,7 @@ Repositório criado para documentar minha jornada de aprendizado em Red Team e O
 - [ ] **MITM Attacks** (básico)
   - [ ] ARP spoofing
   - [ ] LLMNR/NBT-NS poisoning (Responder)
-
 ### Password Attacks
-
 - [ ] **Brute Force**
   - [ ] Hydra (múltiplos serviços)
   - [ ] Medusa
@@ -347,23 +344,15 @@ Repositório criado para documentar minha jornada de aprendizado em Red Team e O
   - [ ] CIRT.net
 
 ### Prática
-
 - [ ] PortSwigger Web Security Academy (TODOS os labs)
 - [ ] HackTheBox: 15 máquinas Medium focadas em web
 - [ ] VulnHub: OWASP BWA, DVWA, bWAPP
 - [ ] TryHackMe: Web Fundamentals Path
 - [ ] Resolver 10+ web CTF challenges
 - [ ] Criar cheat sheet próprio de payloads
-
 ---
-
 ## FASE 4: POST-EXPLOITATION
-
-**Período**: 9 a 12 meses  
-**Status**: Planejado
-
 ### Privilege Escalation - Linux
-
 - [ ] **SUID/SGID Binaries**
   - [ ] find / -perm -4000 2>/dev/null
   - [ ] GTFOBins exploitation
@@ -392,9 +381,7 @@ Repositório criado para documentar minha jornada de aprendizado em Red Team e O
   - [ ] Docker socket exposure
 - [ ] **Shared libraries** (.so hijacking)
 - [ ] **Kernel modules** (menos comum)
-
 ### Privilege Escalation - Windows
-
 - [ ] **Token Impersonation**
   - [ ] Potato attacks (Hot, Rotten, Juicy, Sweet)
   - [ ] PrintSpoofer
@@ -424,9 +411,7 @@ Repositório criado para documentar minha jornada de aprendizado em Red Team e O
 - [ ] **Services Exploitation**
   - [ ] Insecure service permissions
   - [ ] Service binary path hijacking
-
 ### Ferramentas de Enumeração
-
 - [ ] **Linux**
   - [ ] LinPEAS (automated)
   - [ ] LinEnum
@@ -439,9 +424,7 @@ Repositório criado para documentar minha jornada de aprendizado em Red Team e O
   - [ ] SharpUp (C#)
   - [ ] PrivescCheck (PowerShell)
 - [ ] **PEASS-ng suite** (ambos)
-
 ### Persistence
-
 #### Linux
 - [ ] Cron jobs maliciosos
 - [ ] Systemd timers
@@ -450,7 +433,6 @@ Repositório criado para documentar minha jornada de aprendizado em Red Team e O
 - [ ] .bashrc / .profile modification
 - [ ] /etc/passwd backdoor user
 - [ ] Rootkits (conceito básico)
-
 #### Windows
 - [ ] Registry run keys (HKCU/HKLM\Software\Microsoft\Windows\CurrentVersion\Run)
 - [ ] Scheduled tasks
@@ -460,9 +442,7 @@ Repositório criado para documentar minha jornada de aprendizado em Red Team e O
 - [ ] Backdoor accounts
 - [ ] Golden Ticket (AD environment)
 - [ ] Skeleton Key (AD environment)
-
 ### Lateral Movement
-
 - [ ] **Pass-the-Hash (PtH)**
   - [ ] CrackMapExec/NetExec
   - [ ] Evil-WinRM
@@ -486,32 +466,21 @@ Repositório criado para documentar minha jornada de aprendizado em Red Team e O
   - [ ] ligolo-ng
   - [ ] sshuttle
   - [ ] Metasploit routes
-
-### Hardening Awareness (NOVO)
-
+### Hardening Awareness
 Para cada técnica de privilege escalation/lateral movement, estudar:
 - [ ] Controles defensivos que previnem
 - [ ] Como seriam detectados (logs, SIEM)
 - [ ] Mitigações e hardening
 - [ ] Indicadores de comprometimento (IoCs)
-
 ### Prática
-
 - [ ] HackTheBox: 20+ máquinas Medium/Hard
 - [ ] TryHackMe: Post-Exploitation Path
 - [ ] Resolver máquinas que exigem pivoting
 - [ ] Criar cheat sheets de privesc (Linux e Windows)
 - [ ] Documentar técnicas com screenshots
-
 ---
-
 ## FASE 5: ACTIVE DIRECTORY DOMINATION
-
-**Período**: 12 a 16 meses  
-**Status**: Objetivo
-
 ### AD Fundamentals (Aprofundamento)
-
 - [ ] **Estrutura do AD**
   - [ ] Domains, Trees, Forests
   - [ ] Organizational Units (OUs)
@@ -528,9 +497,7 @@ Para cada técnica de privilege escalation/lateral movement, estudar:
   - [ ] SMB/CIFS
   - [ ] DNS (AD-integrated)
   - [ ] Kerberos (88/TCP)
-
 ### Enumeration
-
 - [ ] **BloodHound/SharpHound**
   - [ ] Data collection
   - [ ] Path analysis
@@ -551,9 +518,7 @@ Para cada técnica de privilege escalation/lateral movement, estudar:
 - [ ] **Domain Trust Mapping**
   - [ ] Get-DomainTrust
   - [ ] nltest
-
 ### Initial Foothold
-
 - [ ] **LLMNR/NBT-NS Poisoning**
   - [ ] Responder (capture hashes)
   - [ ] Mitm6 (IPv6 attacks)
@@ -570,9 +535,7 @@ Para cada técnica de privilege escalation/lateral movement, estudar:
   - [ ] DomainPasswordSpray
   - [ ] Spray toolkit
   - [ ] Lockout threshold awareness
-
 ### Privilege Escalation & Credential Access
-
 - [ ] **Kerberoasting**
   - [ ] Rubeus
   - [ ] GetUserSPNs.py (Impacket)
@@ -601,9 +564,7 @@ Para cada técnica de privilege escalation/lateral movement, estudar:
   - [ ] Immediate scheduled tasks
   - [ ] Group Policy Preferences (GPP)
   - [ ] SYSVOL password retrieval
-
 ### Delegation Attacks
-
 - [ ] **Unconstrained Delegation**
   - [ ] Printer bug
   - [ ] TGT extraction
@@ -615,9 +576,7 @@ Para cada técnica de privilege escalation/lateral movement, estudar:
   - [ ] msDS-AllowedToActOnBehalfOfOtherIdentity
   - [ ] Computer account creation
   - [ ] Rubeus RBCD
-
 ### Certificate Services Attacks
-
 - [ ] **AD CS (Active Directory Certificate Services)**
   - [ ] Certify (enumeration)
   - [ ] Certipy (exploitation)
@@ -628,9 +587,7 @@ Para cada técnica de privilege escalation/lateral movement, estudar:
   - [ ] ESC6: EDITF_ATTRIBUTESUBJECTALTNAME2
   - [ ] ESC7: Vulnerable Certificate Authority Access Control
   - [ ] ESC8: NTLM Relay to AD CS HTTP Endpoints
-
 ### Persistence & Domain Dominance
-
 - [ ] **Golden Ticket**
   - [ ] Forjar TGT
   - [ ] Mimikatz
@@ -653,18 +610,14 @@ Para cada técnica de privilege escalation/lateral movement, estudar:
 - [ ] **AdminSDHolder**
   - [ ] ACL modifications
   - [ ] Persistence via protected groups
-
 ### Trust Exploitation
-
 - [ ] **Cross-Forest Attacks**
   - [ ] SID filtering bypass
   - [ ] Trust keys
 - [ ] **SID History Attacks**
   - [ ] Domain migration abuse
 - [ ] **Foreign Security Principals**
-
 ### Ferramentas AD
-
 - [ ] **Impacket suite** (todos os scripts)
   - [ ] psexec.py, wmiexec.py, smbexec.py
   - [ ] secretsdump.py
@@ -677,17 +630,13 @@ Para cada técnica de privilege escalation/lateral movement, estudar:
 - [ ] **Certify / Certipy** (AD CS)
 - [ ] **PowerView** (PowerShell)
 - [ ] **SharpHound** (data collection)
-
 ### Defensive Controls (NOVO)
-
 Para cada ataque de AD, estudar:
 - [ ] Como é detectado (Event IDs do Windows)
 - [ ] Configurações de hardening que previnem
 - [ ] Logs relevantes (4768, 4769, 4776, 5136, etc.)
 - [ ] Ferramentas de defesa (Microsoft Defender for Identity, Splunk)
-
 ### Prática
-
 - [ ] TryHackMe: Attacking and Defending Active Directory
 - [ ] HackTheBox Pro Labs:
   - [ ] RastaLabs (AD focus)
@@ -700,17 +649,12 @@ Para cada ataque de AD, estudar:
   - [ ] GOAD (Game of Active Directory)
   - [ ] DetectionLab
 - [ ] Resolver 5+ máquinas HTB focadas em AD
-
 ---
-
 ## FASE 6: EVASÃO E STEALTH (CONTINUAÇÃO)
-
   - [ ] Sleep timers
   - [ ] Environment checks
   - [ ] User interaction requirements
-
 ### Defense Evasion Techniques
-
 - [ ] **AMSI Bypass**
   - [ ] AntiMalware Scan Interface
   - [ ] Memory patching
@@ -739,9 +683,7 @@ Para cada ataque de AD, estudar:
   - [ ] API unhooking
   - [ ] EDR hooks bypass
   - [ ] Direct syscalls
-
 ### Custom Tooling
-
 - [ ] **Exploit Development (Básico)**
   - [ ] Buffer overflow exploitation
   - [ ] Shellcode writing (Assembly)
@@ -762,9 +704,7 @@ Para cada ataque de AD, estudar:
   - [ ] .NET assemblies
   - [ ] Reflection
   - [ ] In-memory execution
-
 ### Anti-Forensics (NOVO)
-
 - [ ] **Artifact Removal**
   - [ ] Prefetch files
   - [ ] Shimcache
@@ -782,9 +722,7 @@ Para cada ataque de AD, estudar:
   - [ ] Encrypted C2 traffic
   - [ ] Protocol mimicry
   - [ ] Traffic normalization
-
 ### Prática
-
 - [ ] **Sektor7 Institute**
   - [ ] Malware Development Essentials
   - [ ] Red Team Operator: Malware Development Intermediate
@@ -796,16 +734,9 @@ Para cada ataque de AD, estudar:
   - [ ] Common AVs (VirusTotal score < 5/70)
 - [ ] Desenvolver mini C2 funcional
 - [ ] Contribuir em projetos open-source de evasão
-
 ---
-
 ## FASE 7: CLOUD & CONTAINERS
-
-**Período**: 19 a 21 meses  
-**Status**: Expansão de conhecimento
-
 ### Cloud Fundamentals
-
 - [ ] **Cloud Service Models**
   - [ ] IaaS (Infrastructure as a Service)
   - [ ] PaaS (Platform as a Service)
@@ -824,9 +755,7 @@ Para cada ataque de AD, estudar:
   - [ ] Azure Functions
   - [ ] Google Cloud Functions
 - [ ] **CDN (Content Delivery Network)**
-
 ### AWS (Amazon Web Services)
-
 - [ ] **Fundamentos AWS**
   - [ ] IAM (Users, Roles, Policies)
   - [ ] EC2 (Elastic Compute Cloud)
@@ -857,9 +786,7 @@ Para cada ataque de AD, estudar:
 - [ ] **Secrets Manager / Parameter Store**
   - [ ] Secrets extraction
   - [ ] Access policies
-
 ### Azure
-
 - [ ] **Fundamentos Azure**
   - [ ] Azure AD (Entra ID)
   - [ ] Resource Groups
@@ -885,9 +812,7 @@ Para cada ataque de AD, estudar:
 - [ ] **Azure Runbooks**
   - [ ] Automation accounts
   - [ ] Code execution
-
 ### GCP (Google Cloud Platform)
-
 - [ ] **Fundamentos GCP**
   - [ ] IAM
   - [ ] Compute Engine
@@ -902,9 +827,7 @@ Para cada ataque de AD, estudar:
 - [ ] **Metadata Server Abuse**
   - [ ] 169.254.169.254
   - [ ] Service account tokens
-
 ### Kubernetes/Docker
-
 - [ ] **Docker Fundamentals**
   - [ ] Images, containers, volumes
   - [ ] Dockerfile
@@ -936,9 +859,7 @@ Para cada ataque de AD, estudar:
   - [ ] Pod creation for persistence
   - [ ] Secrets extraction
   - [ ] Lateral movement entre pods
-
 ### Ferramentas Cloud
-
 - [ ] **AWS**
   - [ ] Pacu (exploitation framework)
   - [ ] ScoutSuite (security auditing)
@@ -961,9 +882,7 @@ Para cada ataque de AD, estudar:
   - [ ] kubectl (CLI)
   - [ ] kubeletctl
   - [ ] amicontained (container introspection)
-
 ### Prática
-
 - [ ] HackTheBox: Máquinas cloud-focused
 - [ ] Criar labs em free tier:
   - [ ] AWS Free Tier (12 meses)
@@ -974,16 +893,9 @@ Para cada ataque de AD, estudar:
 - [ ] **CloudGoat** (AWS vulnerable by design)
 - [ ] **AzureGoat** (Azure vulnerable labs)
 - [ ] **GCP-Goat** (GCP vulnerable scenarios)
-
 ---
-
-## FASE 8: MOBILE & IoT SECURITY (NOVO)
-
-**Período**: 21 a 23 meses  
-**Status**: Especialização adicional
-
+## FASE 8: MOBILE & IoT SECURITY
 ### Mobile Security Fundamentals
-
 - [ ] **Android Architecture**
   - [ ] Application sandbox
   - [ ] Permissions model
@@ -994,9 +906,7 @@ Para cada ataque de AD, estudar:
   - [ ] Code signing
   - [ ] Keychain
   - [ ] IPA structure
-
 ### Android Pentesting
-
 - [ ] **Static Analysis**
   - [ ] APK decompilation (apktool)
   - [ ] Dex to jar (dex2jar)
@@ -1013,9 +923,7 @@ Para cada ataque de AD, estudar:
   - [ ] OWASP Mobile Top 10 testing
 - [ ] **Drozer** (Android exploitation)
 - [ ] **ADB (Android Debug Bridge)**
-
 ### iOS Pentesting
-
 - [ ] **Jailbreaking**
   - [ ] checkra1n, unc0ver
   - [ ] SSH access
@@ -1030,9 +938,7 @@ Para cada ataque de AD, estudar:
   - [ ] SSL pinning bypass
   - [ ] Jailbreak detection bypass
 - [ ] **Keychain Dumping**
-
 ### OWASP Mobile Top 10
-
 - [ ] M1: Improper Platform Usage
 - [ ] M2: Insecure Data Storage
 - [ ] M3: Insecure Communication
@@ -1043,9 +949,7 @@ Para cada ataque de AD, estudar:
 - [ ] M8: Code Tampering
 - [ ] M9: Reverse Engineering
 - [ ] M10: Extraneous Functionality
-
 ### IoT Security
-
 - [ ] **IoT Protocols**
   - [ ] MQTT (Message Queuing Telemetry Transport)
   - [ ] CoAP (Constrained Application Protocol)
@@ -1073,9 +977,7 @@ Para cada ataque de AD, estudar:
   - [ ] DNP3
   - [ ] Shodan for ICS
   - [ ] PLCs (Programmable Logic Controllers)
-
 ### Ferramentas Mobile & IoT
-
 - [ ] **Mobile**
   - [ ] Frida, Objection
   - [ ] MobSF
@@ -1088,9 +990,7 @@ Para cada ataque de AD, estudar:
   - [ ] Bus Pirate
   - [ ] Attify Badge
   - [ ] Flipper Zero
-
 ### Prática
-
 - [ ] **DIVA** (Damn Insecure and Vulnerable App - Android)
 - [ ] **InsecureBankv2** (Android)
 - [ ] **DVHMA** (Damn Vulnerable Hybrid Mobile App)
@@ -1098,16 +998,9 @@ Para cada ataque de AD, estudar:
 - [ ] TryHackMe: Mobile Security
 - [ ] HackTheBox: Mobile challenges
 - [ ] Participar de mobile bug bounty programs
-
 ---
-
 ## FASE 9: RED TEAM OPERATIONS
-
-**Período**: 23 a 24 meses  
-**Status**: Objetivo final - Operações completas
-
 ### C2 Frameworks (Command & Control)
-
 - [ ] **Cobalt Strike** (Industry standard)
   - [ ] Beacons
   - [ ] Malleable C2 profiles
@@ -1131,9 +1024,7 @@ Para cada ataque de AD, estudar:
 - [ ] **Empire/Starkiller** (PowerShell C2)
   - [ ] Stagers e agents
   - [ ] Modules
-
 ### Infrastructure Setup
-
 - [ ] **Redirectors**
   - [ ] Apache mod_rewrite
   - [ ] nginx proxy
@@ -1154,9 +1045,7 @@ Para cada ataque de AD, estudar:
   - [ ] AWS/Azure/GCP hosting
   - [ ] Serverless C2
   - [ ] Lambda/Functions for C2
-
 ### Social Engineering
-
 - [ ] **Phishing Campaigns**
   - [ ] Gophish framework
   - [ ] Email spoofing (SPF/DKIM/DMARC bypass)
@@ -1182,9 +1071,7 @@ Para cada ataque de AD, estudar:
   - [ ] evilginx2 (phishing framework)
   - [ ] Modlishka
 - [ ] **Watering Hole Attacks** (conceito)
-
 ### Advanced Techniques
-
 - [ ] **Protocol Smuggling**
   - [ ] HTTP request smuggling
   - [ ] CL.TE, TE.CL vulnerabilities
@@ -1205,9 +1092,7 @@ Para cada ataque de AD, estudar:
   - [ ] MITRE ATT&CK TTPs
   - [ ] Multi-stage attacks
   - [ ] Long-term persistence
-
 ### Operational Security (OPSEC)
-
 - [ ] **Infrastructure Hardening**
   - [ ] Firewall rules
   - [ ] SSH key-based auth
@@ -1231,9 +1116,7 @@ Para cada ataque de AD, estudar:
 - [ ] **Compartmentalization**
   - [ ] Separate infrastructure per client
   - [ ] Burn after use mentality
-
 ### Threat Intelligence Integration (NOVO)
-
 - [ ] **MITRE ATT&CK Framework**
   - [ ] TTPs mapping
   - [ ] Adversary emulation
@@ -1249,9 +1132,7 @@ Para cada ataque de AD, estudar:
 - [ ] **Diamond Model**
   - [ ] Adversary, Capability, Infrastructure, Victim
   - [ ] Threat intelligence analysis
-
 ### Reporting & Communication
-
 - [ ] **Executive Summaries**
   - [ ] Para C-level (CEO, CISO)
   - [ ] Business impact
@@ -1280,9 +1161,7 @@ Para cada ataque de AD, estudar:
   - [ ] Initial access time
   - [ ] Privilege escalation time
   - [ ] Objectives achieved
-
-### Frameworks & Compliance Awareness (NOVO)
-
+### Frameworks & Compliance Awareness
 - [ ] **ISO 27001/27002**
   - [ ] Information security controls
   - [ ] Compliance requirements
@@ -1295,9 +1174,7 @@ Para cada ataque de AD, estudar:
 - [ ] **PCI DSS** (Payment Card Industry)
 - [ ] **HIPAA** (Healthcare)
 - [ ] **GDPR/LGPD** (Privacy regulations)
-
-### Legal & Ethical Considerations (CRÍTICO)
-
+### Legal & Ethical Considerations
 - [ ] **Rules of Engagement (RoE)**
   - [ ] Scope definition
   - [ ] Authorized targets
@@ -1321,9 +1198,7 @@ Para cada ataque de AD, estudar:
   - [ ] Evidence handling
   - [ ] Documentation
   - [ ] Legal admissibility
-
 ### Prática
-
 - [ ] **HackTheBox Pro Labs**
   - [ ] APTLabs (Advanced Persistent Threat simulation)
   - [ ] Dante (Network pentest)
@@ -1343,26 +1218,19 @@ Para cada ataque de AD, estudar:
   - [ ] Checklist de OPSEC
   - [ ] Communication protocols
   - [ ] Escalation procedures
-
 ---
-
-## CERTIFICAÇÕES (CAMINHO RECOMENDADO)
-
-### Entry Level (0-6 meses)
-
+## CERTIFICAÇÕES
+### Entry Level
 - [ ] **eJPT** (eLearnSecurity Junior Penetration Tester)
   - Custo: ~$200
   - Foco: Fundamentos de pentest
   - Tempo estimado: 1-2 meses de prep
-
-### Fundamental (6-12 meses)
-
+### Fundamental 
 - [ ] **PNPT** (Practical Network Penetration Tester - TCM Security)
   - Custo: ~$400
   - Foco: Pentest prático com relatório completo
   - Buffer overflow, AD basics, report writing
   - Tempo estimado: 2-3 meses de prep
-
 - [ ] **OSCP** (Offensive Security Certified Professional)
   - Custo: ~$1600 (90 dias lab + exam)
   - Foco: Try Harder - hands-on exploitation
@@ -1370,142 +1238,105 @@ Para cada ataque de AD, estudar:
   - 24h exam (3 máquinas + 1 AD set)
   - Relatório em 24h após exam
   - Tempo estimado: 3-6 meses de prep
-
-### Active Directory Focus (12-18 meses)
-
+### Active Directory Focus 
 - [ ] **CRTP** (Certified Red Team Professional - Pentester Academy)
   - Custo: ~$250
   - Foco: Active Directory attacks (básico a intermediário)
   - Kerberoasting, DCSync, Golden Ticket
   - Tempo estimado: 1-2 meses de prep
-
 - [ ] **CRTE** (Certified Red Team Expert)
   - Custo: ~$500
   - Foco: AD avançado, forest trusts, SQL Server links
   - Tempo estimado: 2-3 meses de prep
-
-### Advanced (18-24 meses)
-
+### Advanced 
 - [ ] **CRTO** (Certified Red Team Operator - Zero-Point Security)
   - Custo: ~$600 (com exam)
   - Foco: Red Team operations, C2 (Cobalt Strike), evasion
   - Adversary simulation completa
   - Tempo estimado: 2-3 meses de prep
-
 - [ ] **OSEP** (Offensive Security Experienced Penetration Tester)
   - Custo: ~$1800
   - Foco: Evasion, AV bypass, advanced exploitation
   - Code review, advanced pivoting
   - Tempo estimado: 3-4 meses de prep
-
-### Expert Level (24+ meses)
-
+### Expert Level
 - [ ] **OSWE** (Offensive Security Web Expert)
   - Custo: ~$1800
   - Foco: Advanced web exploitation, code review
   - Whitebox testing
   - Tempo estimado: 3-4 meses de prep
-
 - [ ] **OSED** (Offensive Security Exploit Developer)
   - Custo: ~$1800
   - Foco: Exploit development, assembly, reverse engineering
   - Buffer overflows, ROP, DEP/ASLR bypass
   - Tempo estimado: 4-6 meses de prep
-
 - [ ] **GXPN** (GIAC Exploit Researcher and Advanced Penetration Tester)
   - Custo: ~$2500 (só exam)
   - Foco: Zero-day research, advanced exploitation
   - Tempo estimado: Requer experiência significativa
-
 ### Opcionais (Especializações)
-
 - [ ] **BSCP** (Burp Suite Certified Practitioner - PortSwigger)
   - Foco: Web application security
 - [ ] **eCPPTv2** (eLearnSecurity Certified Professional Penetration Tester)
 - [ ] **GWAPT** (GIAC Web Application Penetration Tester)
 - [ ] **CEH** (Certified Ethical Hacker - EC-Council)
   - Nota: Mais teórico, menos hands-on
-
 ---
-
 ## PLATAFORMAS DE PRÁTICA
-
-### Iniciante (0-6 meses)
-
+### Iniciante 
 - [ ] **TryHackMe** - Guided learning paths
   - [ ] Complete Beginner
   - [ ] Jr Penetration Tester
   - [ ] Offensive Pentesting
   - [ ] Red Team Fundamentals
   - Custo: ~$10-15/mês (Premium)
-
 - [ ] **PentesterLab** - Web-focused
   - [ ] Essential badge
   - [ ] Unix badge
   - Custo: ~$20/mês
-
 - [ ] **PicoCTF** - CTF for beginners (gratuito)
-
 - [ ] **OverTheWire** - Linux skills
   - [ ] Bandit (básico)
   - [ ] Natas (web)
   - [ ] Leviathan
   - Gratuito
-
-### Intermediário (6-18 meses)
-
+### Intermediário 
 - [ ] **HackTheBox** - Realistic machines
   - [ ] Starting Point (gratuito)
   - [ ] 20+ máquinas Easy
   - [ ] 20+ máquinas Medium
   - [ ] Tracks temáticos
   - Custo: ~$20/mês (VIP) ou gratuito (limited)
-
 - [ ] **VulnHub** - Downloadable VMs (gratuito)
   - [ ] OSCP-like machines
-
 - [ ] **Root-Me** - Challenges diversos
   - Gratuito
-
 - [ ] **PentesterLab Pro** - Advanced tracks
   - Code review, advanced web
-
-### Avançado (18+ meses)
-
+### Avançado 
 - [ ] **HackTheBox Pro Labs**
   - [ ] RastaLabs (AD focus) - $90
   - [ ] Offshore (Red Team) - $90
   - [ ] APTLabs (Advanced) - $130
   - [ ] Dante (Network) - $40
   - [ ] Zephyr (Red Team) - $90
-
 - [ ] **PentesterAcademy Attack Defense Labs**
   - [ ] Red Team Labs
   - Custo: ~$250/ano
-
 - [ ] **SANS NetWars** - Tournament style
   - Custo: Varia (geralmente em conferências)
-
 - [ ] **Proving Grounds** (OffSec)
   - OSCP-like machines
   - Custo: ~$20/mês
-
 ### Competições
-
 - [ ] **CTFtime** - Competitive CTFs
   - Buscar CTFs por skill level
   - Gratuito (maioria)
-
 - [ ] **National Cyber League** (EUA)
-
 - [ ] **DEFCON CTF** (quando chegar no nível)
-
 ---
-
 ## LINGUAGENS DE PROGRAMAÇÃO
-
 ### Essenciais (Prioridade ALTA)
-
 #### Python
 - [ ] **Fundamentos**
   - [ ] Sintaxe, estruturas de dados
@@ -1521,7 +1352,6 @@ Para cada ataque de AD, estudar:
   - [ ] pwntools
   - [ ] struct module
   - [ ] Shellcode generation
-
 #### Bash
 - [ ] **Fundamentos**
   - [ ] Variables, loops, conditionals
@@ -1533,7 +1363,6 @@ Para cada ataque de AD, estudar:
   - [ ] Customização de LinPEAS-like tools
 - [ ] **Text Processing**
   - [ ] awk, sed, grep mastery
-
 #### PowerShell
 - [ ] **Fundamentos**
   - [ ] Cmdlets, pipeline
@@ -1547,13 +1376,6 @@ Para cada ataque de AD, estudar:
 - [ ] **Empire/Covenant Payloads**
   - [ ] Stagers
   - [ ] Obfuscation
-
-# RED TEAM ROADMAP COMPLETO - DO INICIANTE AO AVANÇADO (CONTINUAÇÃO)
-
-## LINGUAGENS DE PROGRAMAÇÃO (CONTINUAÇÃO)
-
-### Avançadas (Segundo ano em diante)
-
 #### C/C++
 - [ ] **Exploit Development**
   - [ ] Buffer overflows
@@ -1569,7 +1391,6 @@ Para cada ataque de AD, estudar:
 - [ ] **Low-level Programming**
   - [ ] Direct memory access
   - [ ] Inline assembly
-
 #### C#
 - [ ] **Windows Payloads**
   - [ ] .NET assemblies
@@ -1583,7 +1404,6 @@ Para cada ataque de AD, estudar:
   - [ ] ViewState exploitation
 - [ ] **Tools Development**
   - [ ] Rubeus, Seatbelt (estudo de código)
-
 #### Go
 - [ ] **Malware Development** (educacional)
   - [ ] Cross-platform compilation
@@ -1595,9 +1415,7 @@ Para cada ataque de AD, estudar:
 - [ ] **Windows API em Go**
   - [ ] syscall package
   - [ ] golang.org/x/sys/windows
-
 ### Complementares
-
 #### JavaScript
 - [ ] **XSS Payloads**
   - [ ] DOM manipulation
@@ -1608,13 +1426,10 @@ Para cada ataque de AD, estudar:
   - [ ] Node.js security
 - [ ] **Browser Exploitation**
   - [ ] BeEF (Browser Exploitation Framework)
-
 #### Ruby
 - [ ] **Metasploit Development**
   - [ ] Custom modules
   - [ ] Exploit adaptation
-- [ ] **Scripting**
-
 #### Assembly (x86/x64)
 - [ ] **Reverse Engineering**
   - [ ] Reading assembly code
@@ -1624,13 +1439,9 @@ Para cada ataque de AD, estudar:
   - [ ] Shellcode optimization
 - [ ] **Debugging**
   - [ ] Breakpoints, stepping
-
 ---
-
 ## RECURSOS DE ESTUDO
-
 ### Livros Fundamentais
-
 #### Red Team & Pentesting
 - [ ] **The Hacker Playbook 2 & 3** - Peter Kim
 - [ ] **RTFM: Red Team Field Manual** - Ben Clark
@@ -1638,106 +1449,24 @@ Para cada ataque de AD, estudar:
 - [ ] **Penetration Testing** - Georgia Weidman
 - [ ] **The Web Application Hacker's Handbook** - Dafydd Stuttard & Marcus Pinto
 - [ ] **Operator Handbook** - Red Team + OSINT
-
 #### Active Directory
 - [ ] **Active Directory Security** (blog) - Sean Metcalf (adsecurity.org)
 - [ ] **Attacking Network Protocols** - James Forshaw
-
 #### Exploit Development
 - [ ] **The Shellcoder's Handbook** - Jack Koziol et al.
 - [ ] **Hacking: The Art of Exploitation** - Jon Erickson
 - [ ] **Gray Hat Hacking** - Allen Harper et al.
-
 #### Wireless & Hardware
 - [ ] **The Hardware Hacker** - Bunnie Huang
 - [ ] **Practical IoT Hacking** - Fotios Chantzis et al.
-
 #### Mobile
 - [ ] **Android Hacker's Handbook** - Joshua J. Drake et al.
 - [ ] **iOS Hacker's Handbook** - Charlie Miller et al.
-
 #### Social Engineering
 - [ ] **The Art of Deception** - Kevin Mitnick
 - [ ] **Social Engineering: The Science of Human Hacking** - Christopher Hadnagy
-
-### Blogs & Websites
-
-- [ ] **MITRE ATT&CK** - attack.mitre.org
-- [ ] **HackTricks** - book.hacktricks.xyz
-- [ ] **PayloadsAllTheThings** - github.com/swisskyrepo/PayloadsAllTheThings
-- [ ] **ired.team** - Red team notes
-- [ ] **0xdf hacks stuff** - HTB writeups
-- [ ] **PentestMonkey** - Cheat sheets
-- [ ] **GTFOBins** - gtfobins.github.io
-- [ ] **LOLBAS** - lolbas-project.github.io
-- [ ] **Exploit-DB** - exploit-db.com
-- [ ] **adsecurity.org** - Sean Metcalf (AD)
-- [ ] **harmj0y.net** - Will Schroeder (PowerView author)
-- [ ] **pentestlab.blog** - Red Team techniques
-
-### YouTube Channels
-
-- [ ] **IppSec** - HTB walkthroughs detalhados (ESSENCIAL)
-- [ ] **John Hammond** - CTFs e security challenges
-- [ ] **The Cyber Mentor** - Pentest e ethical hacking
-- [ ] **LiveOverflow** - Binary exploitation
-- [ ] **STÖK** - Bug bounty e web security
-- [ ] **NetworkChuck** - Networking e hacking basics
-- [ ] **HackerSploit** - Pentest tutorials
-- [ ] **Conda** - HTB walkthroughs
-- [ ] **13Cubed** - Digital forensics e DFIR
-- [ ] **David Bombal** - Networking e security
-
-### Podcasts
-
-- [ ] **Darknet Diaries** - True hacking stories
-- [ ] **Hacking Humans** - Social engineering
-- [ ] **The CyberWire** - Security news
-- [ ] **Risky Business** - InfoSec news
-- [ ] **Malicious Life** - Cybersecurity stories
-
-### Cursos Online
-
-#### Gratuitos
-- [ ] **Cybrary** - Introduction to IT & Cybersecurity
-- [ ] **YouTube - The Cyber Mentor**
-  - [ ] Practical Ethical Hacking (Udemy também)
-  - [ ] Linux Privilege Escalation
-  - [ ] Windows Privilege Escalation
-- [ ] **PortSwigger Web Security Academy** - TODOS os labs
-
-#### Pagos (Investimento)
-- [ ] **TCM Security Academy** (~$30/mês)
-  - [ ] Practical Ethical Hacking
-  - [ ] Windows Privilege Escalation for Beginners
-  - [ ] Linux Privilege Escalation for Beginners
-  - [ ] OSINT Fundamentals
-  - [ ] External Pentest Playbook
-
-- [ ] **PentesterAcademy** (~$250/ano ou $49/mês)
-  - [ ] Red Team Labs
-  - [ ] Attacking and Defending Active Directory
-
-- [ ] **INE/eLearnSecurity** (~$40/mês)
-  - [ ] eJPT, eCPPT paths
-
-- [ ] **Sektor7 Institute**
-  - [ ] Malware Development Essentials (~$200)
-  - [ ] Red Team Operator: Malware Development Intermediate (~$400)
-
-- [ ] **Zero-Point Security** (CRTO)
-  - [ ] Red Team Ops (~$600 com exam)
-
-- [ ] **Offensive Security**
-  - [ ] PEN-200 (OSCP) - $1600
-  - [ ] PEN-300 (OSEP) - $1800
-  - [ ] WEB-300 (OSWE) - $1800
-  - [ ] EXP-301 (OSED) - $1800
-
 ---
-
 ## FERRAMENTAS ESSENCIAIS POR CATEGORIA
-
 ### Reconhecimento
 - [ ] nmap, masscan, rustscan
 - [ ] theHarvester, recon-ng
@@ -1746,7 +1475,6 @@ Para cada ataque de AD, estudar:
 - [ ] Maltego
 - [ ] SpiderFoot
 - [ ] FOCA (metadata analysis)
-
 ### Web Application
 - [ ] Burp Suite Professional (essencial investir)
 - [ ] OWASP ZAP
@@ -1756,14 +1484,12 @@ Para cada ataque de AD, estudar:
 - [ ] Wfuzz
 - [ ] Commix (command injection)
 - [ ] XSStrike
-
 ### Exploitation
 - [ ] Metasploit Framework
 - [ ] Impacket suite
 - [ ] CrackMapExec / NetExec
 - [ ] Searchsploit (Exploit-DB local)
 - [ ] msfvenom (payload generation)
-
 ### Post-Exploitation
 - [ ] Mimikatz / Pypykatz
 - [ ] BloodHound
@@ -1773,7 +1499,6 @@ Para cada ataque de AD, estudar:
 - [ ] LaZagne (credentials)
 - [ ] SharpUp, Seatbelt
 - [ ] pspy (Linux process monitor)
-
 ### Password Attacks
 - [ ] Hashcat (GPU-based)
 - [ ] John the Ripper
@@ -1781,7 +1506,6 @@ Para cada ataque de AD, estudar:
 - [ ] CeWL (wordlist generator)
 - [ ] Patator
 - [ ] Responder (LLMNR/NBT-NS)
-
 ### C2 Frameworks
 - [ ] Cobalt Strike (comercial - ~$3500/ano)
 - [ ] Mythic (open-source)
@@ -1789,7 +1513,6 @@ Para cada ataque de AD, estudar:
 - [ ] Havoc (open-source)
 - [ ] Covenant (open-source)
 - [ ] Empire/Starkiller (open-source)
-
 ### Network
 - [ ] Wireshark
 - [ ] tcpdump
@@ -1797,49 +1520,41 @@ Para cada ataque de AD, estudar:
 - [ ] Bettercap (MITM)
 - [ ] Ettercap
 - [ ] arpspoof
-
 ### Wireless
 - [ ] aircrack-ng suite
 - [ ] wifite
 - [ ] kismet
 - [ ] hostapd-wpe
 - [ ] WiFi Pineapup (hardware)
-
 ### Social Engineering
 - [ ] Gophish
 - [ ] SET (Social Engineer Toolkit)
 - [ ] evilginx2
 - [ ] King Phisher
-
 ### Evasion
 - [ ] Veil Framework
 - [ ] Invoke-Obfuscation
 - [ ] Shellter (AV evasion)
 - [ ] Unicorn (Metasploit evasion)
-
 ### Cloud
 - [ ] Pacu (AWS)
 - [ ] ScoutSuite (multi-cloud)
 - [ ] Prowler (AWS CIS)
 - [ ] AzureHound (Azure AD)
 - [ ] ROADtools (Azure)
-
 ### Mobile
 - [ ] Frida
 - [ ] Objection
 - [ ] MobSF
 - [ ] apktool, jadx
 - [ ] Drozer (Android)
-
 ### Forensics/Analysis
 - [ ] Volatility (memory forensics)
 - [ ] Autopsy
 - [ ] Binwalk (firmware)
 - [ ] strings, hexdump, xxd
 - [ ] Ghidra, IDA Free (reverse engineering)
-
 ---
-
 ## TIMELINE REALISTA
 
 **Total**: 24 meses (2 anos) de estudo intensivo
@@ -1856,120 +1571,58 @@ Para cada ataque de AD, estudar:
 | Fase 7 | Mês 19-21 | 2 meses | Cloud & containers |
 | Fase 8 | Mês 21-23 | 2 meses | Mobile & IoT |
 | Fase 9 | Mês 23-24 | 1 mês | Red Team operations completas |
-
-### Dedicação Sugerida
-
-**Dias úteis**: 2-3 horas/dia
-- 1h teoria (vídeos, leitura, cursos)
-- 1-2h prática (labs, máquinas)
-
-**Fins de semana**: 4-6 horas/dia
-- Máquinas HTB/THM completas
-- Projetos pessoais
-- Writeups
-
-**Total semanal**: ~20 horas
-
-### Flexibilidade
-Este timeline é agressivo. Ajuste conforme sua disponibilidade. O importante é **consistência**, não velocidade.
-
 ---
-
 ## MÉTRICAS DE PROGRESSO
-
 ### Metas Mensais
 - [ ] Máquinas resolvidas: Mínimo 4-6 por mês (Easy/Medium)
 - [ ] Writeups escritos: 2-4 por mês
 - [ ] Ferramentas novas: 2-3 por mês (domínio prático)
 - [ ] Conceitos revisados: Semanalmente
 - [ ] Tempo de estudo: 60-80h/mês
-
 ### Metas Trimestrais
 - [ ] Certificação ou curso completo: 1 por trimestre (se viável)
 - [ ] Projeto prático: Lab próprio, ferramenta custom, CTF team
 - [ ] Revisão geral: Cheat sheets atualizados
 - [ ] Networking: Participar de comunidade/evento
-
 ### Metas Anuais
 - [ ] **Ano 1**: OSCP + CRTP + 50+ máquinas HTB + lab AD funcional
 - [ ] **Ano 2**: CRTO/OSEP + Pro Lab completo + Operação Red Team simulada + portfolio robusto
-
 ---
-
-## PRÓXIMOS PASSOS IMEDIATOS
-
-### Esta Semana
-- [ ] Terminar TryHackMe: Complete Beginner Path
-- [ ] Resolver 2 máquinas Easy no HackTheBox
-- [ ] Estudar: Subnetting (cálculos práticos)
-- [ ] Praticar: Bash scripting (5 scripts de automação)
-
-### Este Mês
-- [ ] Completar Jr Penetration Tester Path (THM)
-- [ ] 10 máquinas Easy no HackTheBox
-- [ ] Estudar OWASP Top 10 (teoria + PortSwigger labs)
-- [ ] Criar primeiro writeup detalhado no GitHub
-- [ ] Configurar VM com Kali Linux + Windows target
-
-### Este Trimestre
-- [ ] Finalizar Fase 1 completa
-- [ ] Iniciar Fase 2 (OSINT + Enumeration)
-- [ ] Considerar inscrição para eJPT
-- [ ] Começar planejamento de laboratório AD local
-- [ ] Participar de 1 CTF online
-
----
-
 ## DOCUMENTAÇÃO E NOTAS
-
 ### Estrutura de Writeups
-
 ```markdown
 # [Nome da Máquina/Challenge]
-
 ## Information Gathering
 - **IP**: 10.10.10.X
 - **Difficulty**: Easy/Medium/Hard
 - **OS**: Linux/Windows
 - **Points**: X
-
 ## Enumeration
-
 ### Nmap Scan
 ```bash
 [comandos e resultados]
 ```
-
 ### Service Enumeration
 [enumeração detalhada de cada serviço]
-
 ## Exploitation
-
 ### Initial Foothold
 [como conseguiu acesso inicial - exploit usado, vulnerability, etc]
-
 ### User Flag
 [caminho até user.txt]
-
 ## Privilege Escalation
 [técnica usada - SUID, sudo, kernel, etc]
-
 ### Root Flag
 [caminho até root.txt]
-
 ## Lessons Learned
 - Técnicas aprendidas
 - Ferramentas novas
 - Conceitos importantes
 - Erros cometidos
-
 ## References
 - [links úteis]
 - [CVE numbers se aplicável]
 ```
-
 ### Cheat Sheets Pessoais
-
 Criar e manter atualizados:
 - [ ] **Comandos Linux** (enumeration, privesc)
 - [ ] **Comandos Windows** (enumeration, privesc)
@@ -1980,17 +1633,13 @@ Criar e manter atualizados:
 - [ ] **Port scanning** (nmap flags e scripts)
 - [ ] **File transfers** (Linux to Windows, Windows to Linux)
 - [ ] **Password cracking** (hashcat modes)
-
 ### Template Semanal de Progresso
-
 ```markdown
 ## Semana [número] - [data início] a [data fim]
-
 ### Objetivos da Semana
 - [ ] Objetivo 1
 - [ ] Objetivo 2
 - [ ] Objetivo 3
-
 ### Máquinas/Desafios Resolvidos
 - [ ] [Nome] - [Dificuldade] - [Técnicas: X, Y, Z]
 - [ ] [Nome] - [Dificuldade] - [Técnicas: A, B, C]
