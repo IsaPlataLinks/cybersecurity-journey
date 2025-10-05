@@ -1,0 +1,57 @@
+# Plano de Estudos – Blue Team | Agosto – Dezembro 2025
+## Estrutura Semestral (Agosto → Dezembro)
+| Mês | Foco Principal | Entregáveis / Metas |
+|-----|----------------|---------------------|
+| **Agosto** | Revisão de Fundamentos de Redes e Segurança | Checklist de fundamentos, configuração do ambiente de estudo, instalação do Wazuh e Wireshark. |
+| **Setembro** | Logs e Análise de Eventos | Domínio de logs do Windows e Linux, Sysmon, regex básica, primeiros dashboards no Wazuh. |
+| **Outubro** | SIEM e Resposta a Incidentes | Simulações de ataques, alertas no SIEM, prática de análise em cenários controlados. |
+| **Novembro** | Segurança de Sistemas e Mitigações | Hardening, análise de vulnerabilidades, incident response playbooks e relatórios técnicos. |
+| **Dezembro** | Consolidação e Portfólio | Criação de mini-labs, documentação no GitHub e atualização do roadmap pessoal. |
+---
+##  Rotina Semanal Flexível
+| Dia | Presencial (Tempo reduzido) | Home Office (Tempo integral) |
+|-----|------------------------------|-------------------------------|
+| **Segunda** | Revisar anotações da faculdade + 1h de prática Blue Team. | Estudo técnico (2h) + faculdade (1h) + revisão Wazuh/Splunk. |
+| **Terça** | Aulas da faculdade + leitura rápida (30min) sobre logs/SIEM. | Estudo guiado (2h) + prática (1h) + exercícios Python para análise. |
+| **Quarta** | Descanso ativo ou revisão leve (resumo no Notion). | Estudo prático (3h): incident response + análise real de logs. |
+| **Quinta** | Foco em matérias da faculdade + 1h Blue Team. | Prática de simulações (2h) + laboratório Wazuh/Splunk. |
+| **Sexta** | Estudo leve (vídeo/aula) + organização do repositório. | Revisão semanal + GitHub update + reflexão de progresso. |
+| **Sábado** | (Opcional) Aula complementar, curso ou workshop online. | (Opcional) Hands-on com incidentes simulados. |
+| **Domingo** | Descanso / Reflexão pessoal. | Descanso / Reflexão pessoal. |
+---
+## Integração Faculdade + Blue Team
+| Matéria (FAM – 2º Semestre) | Aplicação Prática em Blue Team |
+|-------------------------------|--------------------------------|
+| **Banco de Dados I** | Armazenamento de logs e consultas via SQL em incidentes. |
+| **Programação II (Python)** | Scripts para automação de análises e parsing de logs. |
+| **Engenharia de Software** | Documentação e versionamento de playbooks de incidentes. |
+| **Sistemas Operacionais** | Compreensão de logs do kernel, processos e gestão de permissões. |
+| **Redes de Computadores** | Base da análise de tráfego (Wireshark, TCP/IP, DNS, ARP, ICMP). |
+---
+## Módulos de Estudo Blue Team (Checklist com Progresso)
+### Fase 1 — Fundamentos (Agosto)
+- [ ] Conceitos de Cibersegurança e Threat Landscape  
+- [ ] Revisão de Redes (TCP/IP, DNS, HTTP, ARP, DHCP)  
+- [ ] Conceitos de Logs e Telemetria  
+- [ ] Instalação de Ambiente (Wazuh, Splunk, Wireshark)  
+### Fase 2 — Logs e Monitoramento (Setembro)
+- [ ] Logs do Windows (Event Viewer, Sysmon, Security Logs)  
+- [ ] Logs do Linux (auth.log, syslog, journald)  
+- [ ] Expressões Regulares e Parsing Básico  
+- [ ] Criação de Dashboards no Wazuh  
+### Fase 3 — SIEM e Resposta a Incidentes (Outubro)
+- [ ] Introdução a SIEM  
+- [ ] Análise de Alertas e Eventos Correlacionados  
+- [ ] Simulação de Ataques Controlados (phishing, brute force, malware)  
+- [ ] Criação de Relatórios de Incidente  
+### Fase 4 — Hardening e Mitigações (Novembro)
+- [ ] Controle de Acesso e Políticas de Segurança  
+- [ ] Atualizações e Correções de Vulnerabilidades  
+- [ ] Playbooks de Resposta a Incidentes  
+- [ ] Análise de Vulnerabilidades (Nessus ou OpenVAS)  
+### Fase 5 — Consolidação e Portfólio (Dezembro)
+- [ ] Mini-labs com Logs Reais  
+- [ ] Relatórios Técnicos no GitHub  
+- [ ] Revisão da Trilha Blue Team (Checklist Final)  
+- [ ] Atualização de Currículo e Portfólio Técnico  
+---
